@@ -168,7 +168,7 @@ client.on('message-new', async (m) => {
        case 'nulis':
            nulis(value)
                .then(data => {
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, data, MessageType.image)
                })
                .catch(err => {
@@ -183,7 +183,7 @@ client.on('message-new', async (m) => {
                .then(data => {
                    const { judul, size, hasil: link } = data
                    let hasil = `✅ Lagu Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawah🗡️\n\nJudul: ${judul}\n\nUkuran audio: ${size}\n\nLink: ${link}`
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, hasil, MessageType.text)
                })
                .catch(err => {
@@ -195,7 +195,7 @@ client.on('message-new', async (m) => {
                .then(data => {
                    const { judul, size, hasil: link } = data
                    let hasil = `✅ Video Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawah🗡️\n\nJudul: ${judul}\n\nUkuran audio: ${size}\n\nLink: ${link}`
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, hasil, MessageType.text)
                })
                .catch(err => {
@@ -207,7 +207,7 @@ client.on('message-new', async (m) => {
                .then(data => {
                     const { size, hasil: link } = data
                     let hasil = `✅ Berhasil! silahkan klik link di bawah untuk mendownload hasilnya!\nKlik link dibawah🗡️\n\nSize: ${size}\n\nLink: ${link}`
-                    client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                    client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                     client.sendMessage(id, hasil ,MessageType.text)
                })
                .catch(err => {
@@ -324,7 +324,7 @@ client.on('message-new', async (m) => {
                case 'cewek':
                    cewePict()
                        .then(buffer => {
-                           client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                           client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                            client.sendMessage(id, buffer, MessageType.image)
                        })
                        .catch(err => {
@@ -334,7 +334,7 @@ client.on('message-new', async (m) => {
                case 'cowok':
                    cowoPict()
                        .then(buffer => {
-                           client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                           client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                            client.sendMessage(id, buffer, MessageType.image)
                        })
                        .catch(err => {
@@ -349,7 +349,7 @@ client.on('message-new', async (m) => {
        case 'animepict':
            animPict()
                .then(buffer => {
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -673,7 +673,7 @@ case 'filmanime':
            case 'map':
            map()
                .then(buffer => {
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -683,7 +683,7 @@ case 'filmanime':
            case 'waifu':
            waifu()
                .then(buffer => {
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -693,7 +693,7 @@ case 'filmanime':
       case 'loli':
            loli()
                .then(buffer => {
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -703,7 +703,7 @@ case 'filmanime':
            case 'ssweb':
            ssweb()
                .then(buffer => {
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -713,7 +713,7 @@ case 'filmanime':
      case 'cooltext':
            cooltext()
                .then(buffer => {
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -723,7 +723,7 @@ case 'filmanime':
            case 'ttp':
            ttp()
                .then(buffer => {
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -733,7 +733,7 @@ case 'filmanime':
            case 'nekonime':
            nekonime()
                .then(buffer => {
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
@@ -743,7 +743,7 @@ case 'filmanime':
            case 'ytmp3':
            mp3()
                .then(buffer => {
-                   client.sendMessage(id, '*Tunggu Bentar Ya Gan❤*', MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BOSQ🖤', MessageType.text)
                    client.sendMessage(id, buffer, MessageType.image)
                })
                .catch(err => {
